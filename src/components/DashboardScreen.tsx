@@ -372,13 +372,13 @@ export default function DashboardScreen({
       />
 
       {/* Main Banner Slider Area */}
-      <div className="max-w-4xl mx-auto w-full px-5 -mt-4 relative z-25" id="hero-banner-container">
+      <div className="max-w-4xl mx-auto w-full px-5 mt-6 relative z-25" id="hero-banner-container">
         <div className="bg-white rounded-2xl overflow-hidden shadow-[0_6px_20px_-5px_rgba(0,0,0,0.12)] border border-slate-100">
-          <div className="relative h-[150px] sm:h-[190px] md:h-[230px] w-full" id="banner-image-wrapper">
+          <div className="relative h-[180px] sm:h-[240px] md:h-[300px] w-full" id="banner-image-wrapper">
             <img 
               src="https://appdesign.appdesignproyectos.com/zeebrafoto.jpg" 
               alt="Zeebra Hospital"
-              className="w-full h-full object-cover object-center filter contrast-[1.01] brightness-[1.01]"
+              className="w-full h-full object-cover object-top filter contrast-[1.01] brightness-[1.01]"
               referrerPolicy="no-referrer"
               id="banner-image"
             />
