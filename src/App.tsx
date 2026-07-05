@@ -248,7 +248,7 @@ export default function App() {
         doctorId: 'dr-doe',
         doctorName: 'Dr. Roberto Díaz',
         doctorSpecialty: 'Veterinario Cirujano',
-        doctorAvatar: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&h=400&q=80',
+        doctorAvatar: 'https://appdesign.appdesignproyectos.com/zeebrafoto.jpg',
         date: 'JUNE 20, 2021',
         time: '12:00',
         status: 'upcoming',

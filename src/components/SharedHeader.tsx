@@ -85,19 +85,11 @@ export default function SharedHeader({
 
           {/* Direct, unencapsulated Logo for Zeebra */}
           <img 
-            src="blob:https://gemini.google.com/49ee5c36-d723-43a2-9190-77fd914cadb0" 
+            src="https://appdesign.appdesignproyectos.com/zeebra.png" 
             alt="Zeebra" 
             className="h-10 sm:h-12 w-auto object-contain animate-fade-in"
             referrerPolicy="no-referrer"
-            onError={(e) => {
-              e.currentTarget.style.display = 'none';
-              const f = document.getElementById('zeebra-fallback-text-label');
-              if (f) f.style.display = 'inline-block';
-            }}
           />
-          <span id="zeebra-fallback-text-label" className="hidden text-sm sm:text-base font-black tracking-widest uppercase text-white bg-white/10 px-3 py-1 rounded-full border border-white/5">
-            Zeebra
-          </span>
         </div>
 
         {/* User Info & Avatar - Fully Responsive */}

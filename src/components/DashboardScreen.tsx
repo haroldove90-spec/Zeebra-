@@ -128,22 +128,14 @@ export default function DashboardScreen({
           <div className="space-y-2">
             <div className="flex items-center justify-center mx-auto" id="portal-logo-container">
               <img 
-                src="blob:https://gemini.google.com/49ee5c36-d723-43a2-9190-77fd914cadb0" 
-                alt="Zeebra Hospital Veterinario" 
+                src="https://appdesign.appdesignproyectos.com/zeebra.png" 
+                alt="Zeebra" 
                 className="h-20 sm:h-24 w-auto object-contain"
                 referrerPolicy="no-referrer"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                  const fallback = document.getElementById('portal-logo-fallback-activity');
-                  if (fallback) fallback.style.display = 'flex';
-                }}
               />
-              <div id="portal-logo-fallback-activity" className="hidden items-center justify-center bg-[#3db5d7] text-white w-16 h-16 rounded-2xl shadow-md">
-                <Activity className="h-9 w-9 stroke-[2.5]" />
-              </div>
             </div>
             <h1 className="text-2xl font-black text-slate-800 tracking-tight pt-2" id="portal-title">
-              Zeebra Hospital Veterinario
+              Zeebra
             </h1>
             <p className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest leading-none">
               Selecciona tu perfil de acceso

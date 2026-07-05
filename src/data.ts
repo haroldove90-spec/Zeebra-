@@ -8,7 +8,7 @@ export const DOCTORS: Doctor[] = [
     patients: '2.4k Mascotas',
     experience: '8 años',
     rating: 5,
-    avatar: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&h=400&q=80',
+    avatar: 'https://appdesign.appdesignproyectos.com/zeebrafoto.jpg',
     about: 'El Dr. Roberto Díaz es un Cirujano Veterinario senior especializado en cirugía de tejidos blandos, traumatología y cuidado crítico de pequeñas especies. Con más de 8 años de dedicación clínica, brinda atención empática y experta para asegurar la salud de tu mascota.',
   },
   {
