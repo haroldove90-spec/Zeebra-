@@ -134,10 +134,7 @@ export default function DashboardScreen({
                 referrerPolicy="no-referrer"
               />
             </div>
-            <h1 className="text-2xl font-black text-slate-800 tracking-tight pt-2" id="portal-title">
-              Zeebra
-            </h1>
-            <p className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest leading-none">
+            <p className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest leading-none pt-2">
               Selecciona tu perfil de acceso
             </p>
           </div>
@@ -379,16 +376,11 @@ export default function DashboardScreen({
         <div className="bg-white rounded-2xl overflow-hidden shadow-[0_6px_20px_-5px_rgba(0,0,0,0.12)] border border-slate-100">
           <div className="relative h-[150px] sm:h-[190px] md:h-[230px] w-full" id="banner-image-wrapper">
             <img 
-              src="blob:https://gemini.google.com/a6922b06-a9ae-4f9e-bb5c-0cb1e21c2d40" 
-              alt="Veterinary Clinic Zeebra"
+              src="https://appdesign.appdesignproyectos.com/zeebrafoto.jpg" 
+              alt="Zeebra Hospital"
               className="w-full h-full object-cover object-center filter contrast-[1.01] brightness-[1.01]"
               referrerPolicy="no-referrer"
               id="banner-image"
-              onError={(e) => {
-                if (e.currentTarget.src !== "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80") {
-                  e.currentTarget.src = "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80";
-                }
-              }}
             />
             {/* Soft Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent"></div>
