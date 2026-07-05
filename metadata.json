@@ -1,0 +1,6 @@
+{
+  "name": "Zeebra Hospital Veterinario",
+  "description": "Portal clínico veterinario interactivo con accesos independientes para Administrador, Veterinario, Recepción y Cliente.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
